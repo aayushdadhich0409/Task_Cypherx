@@ -74,7 +74,7 @@ const KanbanBoard = () => {
       
 {/* status page */}
       {groupingOption === "status" && (
-        <div className="flex-r  ow" style={{ margin: "9px" }}>
+        <div className="flex-row" style={{ margin: "9px" }}>
           {statusArray.map((status) => (
             <div key={status} className="flex-col" style={{ margin: "9px" }}>
               <div className="flex-row">
